@@ -55,9 +55,15 @@ shareicon[10].setAttribute("src","icons/email-black.png");
   });
 
     function copyPageLink() {
-    navigator.clipboard.writeText(window.location.href);
-    alert("Page link copied")
-  }
+    // Copy your portfolio link
+    navigator.clipboard.writeText("https://bikrambasantra.github.io/BikramPortfolio/main.html#")
+        .then(() => {
+            alert("Page link copied!");
+        })
+        .catch(err => {
+            console.error("Error copying link: ", err);
+        });
+}
 
 
 document.getElementById("contactForm").addEventListener("submit", function(e) {
@@ -87,7 +93,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     return;
   }
 
-  alert("Currently Working on the app but still thank you for your message ");
+  alert("Currently Working on this app but still thank you for your message ");
   this.reset();
 });
 
