@@ -93,9 +93,10 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     return;
   }
 
-  alert("Currently Working on this app but still Thank You For Your Message");
+  alert("Thank you for your message!");
   this.reset();
 });
+
 
 
 
