@@ -1,0 +1,99 @@
+#education,#project{
+     box-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+}
+
+.resume {
+    background-color: rgb(41, 41, 41);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-family: "Fredoka", serif;
+    font-weight: 500;
+    color: #fdfdfd;
+}
+body{
+    background-color: #000000;
+    padding-right: 50px;
+    
+    margin: 0;
+    color: white;
+    font-family:  "Fredoka", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: block;
+}
+
+
+#mode-button {
+    box-shadow: 0px 0px 1px rgb(251, 244, 244);
+}
+
+#mode-change-div {
+    box-shadow: 0px 0px 1px rgb(255, 255, 255,1);
+}
+
+
+.mode-change-button {
+    color: white;
+}
+
+.mode-change-button:hover {
+    opacity: 0.7;
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+.project-box {
+    box-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+}
+
+.box{
+   box-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+}
+
+#techstack {
+    box-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+}
+
+
+.platfroms-div {
+    background-color: white;
+    color: #000000;
+}
+
+#t {
+    color: #000000;
+    font-weight: bold;
+}
+
+.lower-header {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 2);
+}
+
+ button {
+      background: #fff;
+      color: #000;
+ }
+
+  button:hover {
+      background: #ddd;
+    }
+
+    #contact {
+  
+    box-shadow:  0.3px 0px 0px rgb(239, 237, 237,1);
+}
+
+input, textarea, button {
+      background: #333;
+      color: #fff;
+    }

@@ -1,0 +1,663 @@
+#headline{
+    font-size: 40px;
+    width: 1000px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+#look-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin-top: 10px;
+    height: 24px;
+    align-items: end;
+}
+
+#project-headline{
+    font-size: 35px;
+    margin-top: 65px;
+}
+
+#project-headline-des{
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+#headline-text{
+    font-family: "Roboto", serif;
+    font-weight: 800;
+}
+#profile-des{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#share{
+    font-size: 20px;
+}
+#share-icon{
+    width: 24px;
+    object-fit: contain;
+}
+#share-icon-link{
+    width: 20px;
+    object-fit: contain;
+}
+
+#share-text{
+    font-size: 25px;
+}
+
+#sharing{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    column-gap: 7px;
+    align-items: center;
+}
+
+#education,#project{
+    margin-top: 40px;
+    max-width: 490px;
+    min-width: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 200px;
+    padding-right: 7px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+#project{
+    height: 400px;
+    padding-top: 20px;
+    width: 300px;
+    margin-top: 60px;
+}
+
+
+#project-div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+#project-name{
+    font-size: 20px;
+    font-family: "Fredoka", serif;
+    font-weight: 500;
+}
+
+#education-heading{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Fredoka", serif;
+}
+
+#resume{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Fredoka", serif;
+}
+
+#work {
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    font-size: 34px;
+}
+#company-name {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Fredoka", serif;
+}
+
+#miracle-img {
+    width: 50px;
+    background-color: transparent;
+}
+
+#company {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+}
+
+#workexp {
+    display: flex;
+    width: 300px;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    row-gap: 15px;
+    margin-bottom: 120px;
+}
+
+#clg{
+    display: flex;
+    flex-direction: row;
+    column-gap: 13px;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+#nptel{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+#coding{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+
+.preview{
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+}
+
+#look{
+    margin-top: 10px;
+}
+
+#resume-des{
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+
+p{
+    margin: 0;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-family: "Fredoka", serif;
+    font-weight: 500;
+    color: #000000;
+}
+body{
+    padding-left: 300px;
+    background-color: #000000;
+    margin: 0;
+    height: 3700px;
+    padding-top: 0;
+    color: white;
+    font-family:  "Fredoka", serif;
+}
+
+.left-container{
+    position: fixed;
+    background-color: #131212;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 70px;
+    align-items: center;
+    color: white;
+    z-index: 11;
+}
+
+#profilepic{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#profile-name,#profile-name2{
+    font-family: "Fredoka", serif;
+    font-weight: 550;
+    
+}
+#profile-name2{
+    font-weight: 400;
+}
+
+.left-first{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#profile-name-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+#nav-icon{
+    width: 20px;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    color: white;
+}
+
+.left-sec{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    row-gap: 30px;
+}
+
+
+#mode-button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mode-button:hover {
+    opacity: 0.8;
+}
+
+#mode-button:active {
+    opacity: 0.4;
+}
+
+#mode-button-img{
+    width: 19px;
+    height: 19px;
+}
+
+
+#mode-change-div {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    display: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+.mode-change-button {
+    width: 100%;
+    border-radius: 9px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    font-family:  "Fredoka", serif;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 5px;
+    transition: opacity,background-color 0.2s;
+}
+
+.mode-change-button:hover {
+    opacity: 0.7;
+}
+
+.mode-change-button:active {
+    opacity: 0.3;
+}
+
+
+
+#resume-btn {
+    width: 170px;
+    height: 38px;
+    margin-top: 8px;
+    border-radius: 27px;
+    font-family:  "Fredoka", serif;
+    text-align: center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    border: none;
+    transition: opacity,color 0.1s;
+}
+#resume-btn:hover {
+    opacity: 0.3;
+    color: black;
+}
+
+
+
+#arrow-img {
+    width: 24px;
+}
+
+
+.skills {
+    width: 1000px;
+    height: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    align-items: center;
+    row-gap: 35px;
+}
+
+.skills-heading {
+    font-size: 30px;
+    font-family: "Roboto", serif;
+    font-weight: 800;
+}
+
+.box-div {
+    width: 940px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.box {
+    width: 430px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    font-family: "Fredoka", serif;
+    column-gap: 10px;
+    
+}
+
+#box-title {
+    font-size: 23px;
+}
+
+#box-des {
+    color: gray;
+}
+
+#image-box-icon {
+    width: 40px;
+}
+
+.main-pic {
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#ph {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.main-project-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+
+#calendar-icon {
+    width: 15px;
+}
+
+#date{
+    font-size: 12px;
+    color: gray;
+}
+
+#calender-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.project-box {
+    padding-right: 20px;
+    height: 420px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#project-title {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#project-des {
+    color: gray;
+}
+
+#project-img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#techstack {
+    height: 40px;
+    border-radius: 10px;
+    width: 290px;
+    box-shadow: 0px 0px 1px rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 15px;
+    align-items: center;
+
+}
+
+#check{ 
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    text-decoration: underline;
+}
+
+#search-icon {
+    width: 20px;
+    position: cover;
+}
+
+.platforms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+
+
+#heading-for-platform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.platform-section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    margin-top: 50px;
+}
+
+
+.platfroms-div {
+    width: 600px;
+    height: 60px;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+#youtube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+
+
+.lower-header {
+    margin-top: 200px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    height: 480px;
+    width: 1100px;
+    padding-left: 60px;
+    padding-top: 50px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#contact-text {
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#contact {
+    width: 500px;
+    box-shadow:  0px 0px 2px rgb(239, 237, 237);
+}
+
+/* Contact Form Styling */
+#messageme {
+  width: 500px;
+  
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+#contactForm label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #888;
+}
+
+.name-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name-fields input {
+  flex: 1;
+}
+
+#contactForm textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Send Button */
+#send-message {
+  width: 150px;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 150px;
+}
+
+#send-message:hover {
+  background: #ddd;
+}

@@ -1,0 +1,98 @@
+#education,#project{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0,0.6);
+    border: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-family: "Fredoka", serif;
+    font-weight: 500;
+    color: #000000;
+}
+body{
+    background-color: #fefefe;
+    padding-right: 50px;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family:  "Fredoka", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: block;
+}
+
+
+#mode-button {
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+#mode-change-div {
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+
+.mode-change-button {
+    color: rgb(0, 0, 0);
+}
+
+.mode-change-button:hover {
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+.resume {
+    background-color: rgb(223, 223, 223);
+}
+
+
+.box {
+   
+     box-shadow: 0px 0px 2px rgba(0, 0, 0,0.6);
+
+}
+
+.project-box {
+        box-shadow: 0px 0px 2px rgba(0, 0, 0,0.6);
+}
+
+#techstack {
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+
+
+.platfroms-div {
+        box-shadow: 0px 0px 1.3px rgb(0, 0, 0);
+}
+
+.lower-header {
+    box-shadow: 0px 0px 6px rgb(0, 0, 0,1);
+}
+
+
+    #contact {
+    box-shadow:  0.3px 0px 0px rgb(0, 0, 0);    
+
+    }
+
+
+    input, textarea, button {
+      background: #c0bebe;
+      color: #201f1f;
+    }
+
+    
+    input:focus, textarea:focus {
+      box-shadow: 0 0 5px #f1eeee;
+    }
+
+    
+

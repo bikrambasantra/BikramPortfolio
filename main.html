@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikram Portfolio</title>
+    <link rel="shortcut icon" href="profilepic.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Main.css" >
+    <link rel="stylesheet" href="Dark.css" id="theme-link">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="left-container">
+            
+            <div class="left-first">
+                <img src="profilepic.jpg" alt="" id="profilepic">
+                <div id="profile-name-div">
+                    <p id="profile-name">Bikram Deva Basantra </p>
+                    
+                    <p id="profile-name2">
+                        Software Engineer</p>
+                </div>
+             
+            </div>
+            <div class="left-sec">
+                <a href="" id="nav-bar">
+                    <img src="icons/home.png" alt="" id="nav-icon">
+                    <p>Home</p>
+                </a>
+                <a href="#ProjecSec" id="nav-bar">
+                    <img src="icons/project.png" alt="" id="nav-icon">
+                    <p>Projects</p>
+                </a>
+                <a href="#platform" id="nav-bar">
+                    <img src="icons/platforms.png" alt="" id="nav-icon">
+                    <p>Platfoms</p>
+                </a>
+                <a href="#lower-header" id="nav-bar">
+                    <img src="icons/contact.png" alt="" id="nav-icon">
+                    <p>Contact</p>
+                </a>
+            </div>
+        </div>
+               
+    </header>
+
+        <button id="mode-button" onclick="modechange(`light`)">
+            <img src="icons/night-mode.png" alt="" id="mode-button-img">
+        </button>
+
+        <div id="mode-change-div">
+            <button class="mode-change-button" value="Light">Light</button>
+            <button class="mode-change-button" value="Dark">Dark</button>
+        </div>
+
+    <div id="headline">
+        <div>
+            <p id="headline-text">Hey, glad you’re here! Explore my world of code and creativity.</p>
+                    <p id="profile-des">I'm Bikram, a passionate software developer from India. Here, you’ll find my journey through code — from crafting web apps with React and Java to solving 300+ DSA problems that sharpen my problem-solving skills.</p>
+                    <div id="sharing">
+                        <a href="" id="share-texts">
+                            <img src="icons/share.png" alt="" id="share-icon" class="shareicon">
+                        </a>
+
+                        <a id="share-text" href="#" onclick="copyPageLink()">share my profile</a>
+                    </div>
+        </div>
+      
+        <img src="mainpic.jpg" alt="" class="main-pic">
+    </div>
+
+    <div class="preview">
+        <div id="education">
+            <p id="education-heading">Profile Overview</p>
+            <div id="clg">
+                <img src="icons/clg.png" alt="" id="share-icon" class="shareicon">
+                <p>b.tech in Computer Science & Engineering from GIET University, Gunupur Rayagada Odisha
+                </p>
+            </div>
+            <div id="nptel"> 
+                <img src="icons/certificateCode.png" alt="" id="share-icon" class="shareicon">
+                <p>Certified DSA using java by NPTEL</p>
+            </div>
+            <div id="coding">
+                <img src="icons/experience.png" alt="" id="share-icon" class="shareicon">
+                <p>Software Trainee at Miracle Software System Visakhapatnam</p>
+            </div>
+        </div>
+
+        
+        <div id="education" class="resume"> 
+            <p id="resume">Resume</p>
+            <p id="resume-des">Software Engineer skilled in Java, React, Spring Boot, SQL, and DSA. Solved 300+ coding problems across platforms, proving strong problem-solving skills.</p>
+
+            <button id="resume-btn" onclick="window.open('BikramResume.pdf', '_blank')">
+                <p>View Resume</p>
+                <img src="icons/right-arrow-black.png" alt="" id="arrow-img">
+            </button>
+        </div>
+    </div>
+
+     <div id="workexp">
+        <p id="work">I've worked at</p>
+        <div id="company">
+            <img src="https://www.freshersnow.com/wp-content/uploads/2018/10/Miracle-Soft-Placement-Papers.png" alt="" id="miracle-img">
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7352077547347587074/" id="company-name" target="_blank">Miracle Software System</a>
+        </div>
+    </div>
+
+    <div class="skills">
+        <p class="skills-heading">
+            I've worked with
+        </p>
+        <div class="box-div">
+            <div class="box">
+                <img src="icons/html.png" alt="" id="image-box-icon">
+                <div>
+                    <p id="box-title">HTML</p>
+                    <p id="box-des">Hyper Text Markup Language</p>
+                </div>
+                
+            </div>
+            <div class="box">
+                <img src="icons/css.png" alt="" id="image-box-icon">
+                <div>
+                    <p id="box-title">CSS</p>
+                    <p id="box-des">Cascading style sheet</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="icons/java.png" alt="" id="image-box-icon">
+                <div>
+                    <p id="box-title">java</p>
+                    <p id="box-des">Programming Language</p>
+                </div>
+            </div>
+        </div>
+        <div class="box-div">
+            <div class="box">
+                <img src="icons/js.png" alt="" id="image-box-icon">
+                <div>
+                    <p id="box-title">JavaScript</p>
+                    <p id="box-des">Programming Language</p>
+                </div>
+                
+            </div>
+            <div class="box">
+                <img src="icons/react.png" alt="" id="image-box-icon">
+                <div>
+                    <p id="box-title">react.js</p>
+                    <p id="box-des">javaScript Library</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="icons/mysql.png" alt="" id="image-box-icon">
+                <div>
+                    <p id="box-title">MySql</p>
+                    <p id="box-des">relational database management system</p>
+                </div>
+            </div>
+        </div>
+        <p id="box-title">Learning in progress....</p>
+    </div>
+
+    <div class="main-project-div" id="ProjecSec">
+        <p class="skills-heading">My Projects</p>
+        <p id="ph">Explore my projects to see what I’ve been building.</p>
+
+        <div class="project-grid">
+            <div class="project-box">
+                <div id="calender-div">
+                    <img src="icons/calendar.png" alt="" id="calendar-icon" class="shareicon">
+                    <p id="date">Completed on Aug 2024</p>
+                </div>
+                
+                <p id="project-title">Trip Planner</p>
+
+                <p id="project-des">Built a web app to simplify travel planning with real-time transport options and attraction recommendations.</p>
+
+                <img src="tripplanner.png" alt="" id="project-img">
+                
+                <div id="techstack"> 
+                     <img src="icons/react.png" alt="" id="image-box-icon">
+                      <img src="icons/html.png" alt="" id="image-box-icon">
+                       <img src="icons/css.png" alt="" id="image-box-icon">
+                        <img src="icons/js.png" alt="" id="image-box-icon">
+                         <img src="icons/nodejs.png" alt="" id="image-box-icon">
+                </div>
+                <a href="https://github.com/bikrambasantra/Trip-Planner.git" id="check" target="_blank">
+                    Click here to check
+                    <img src="icons/search.png" alt="" id="search-icon">
+                </a>
+            </div>
+
+             <div class="project-box">
+                <div id="calender-div">
+                    <img src="icons/calendar.png" alt="" id="calendar-icon" class="shareicon">
+                    <p id="date">Completed on july 2024</p>
+                </div>
+                
+                <p id="project-title">VidStream</p>
+
+                <p id="project-des">Built VidStream, a React-based web application where users can watch a video and post comments, with each 
+comment dynamically displayed in a comment box one by one. </p>
+
+                <img src="" alt="" id="project-img">
+                
+                <div id="techstack"> 
+                     <img src="icons/react.png" alt="" id="image-box-icon">
+                      <img src="icons/html.png" alt="" id="image-box-icon">
+                       <img src="icons/css.png" alt="" id="image-box-icon">
+                        <img src="icons/js.png" alt="" id="image-box-icon">
+                       
+                </div>
+                <a href="https://github.com/bikrambasantra/Comment-and-PopUp" id="check" target="_blank">
+                    Click here to check
+                    <img src="icons/search.png" alt="" id="search-icon">
+                </a>
+            </div>
+
+             <div class="project-box">
+                <div id="calender-div">
+                    <img src="icons/calendar.png" alt="" id="calendar-icon" class="shareicon">
+                    <p id="date">Completed on jan 2025</p>
+                </div>
+                
+                <p id="project-title">Weather-App</p>
+
+                <p id="project-des"> A responsive web application that retrieves real-time weather data using a public 
+weather API, offering location-based forecasts with dynamic updates</p>
+
+                <img src="weatherapp.png" alt="" id="project-img">
+                
+                <div id="techstack"> 
+                   
+                      <img src="icons/html.png" alt="" id="image-box-icon">
+                       <img src="icons/css.png" alt="" id="image-box-icon">
+                        <img src="icons/js.png" alt="" id="image-box-icon">
+                        
+                </div>
+                <a href="https://github.com/bikrambasantra/Trip-Planner.git" id="check" target="_blank">
+                    Click here to check
+                    <img src="icons/search.png" alt="" id="search-icon">
+                </a>
+            </div>
+
+             <div class="project-box">
+                <div id="calender-div">
+                    <img src="icons/calendar.png" alt="" id="calendar-icon" class="shareicon">
+                    <p id="date">Completed on Apr 2024</p>
+                </div>
+                
+                <p id="project-title">YouTube clone</p>
+
+                <p id="project-des">Built a static clone of YouTube’s interface using only HTML and CSS for layout and styling.</p>
+
+                <img src="youutbeclone.png" alt="" id="project-img">
+                
+                <div id="techstack"> 
+                     
+                      <img src="icons/html.png" alt="" id="image-box-icon">
+                       <img src="icons/css.png" alt="" id="image-box-icon">
+                        
+                </div>
+                <a href="https://github.com/bikrambasantra/YOUTUBE-CLONE.git" id="check" target="_blank">
+                    Click here to check
+                    <img src="icons/search.png" alt="" id="search-icon">
+                </a>
+            </div>
+
+             <div class="project-box">
+                <div id="calender-div">
+                    <img src="icons/calendar.png" alt="" id="calendar-icon" class="shareicon">
+                    <p id="date">Completed on Sep 2024</p>
+                </div>
+                
+                <p id="project-title">Rock paper Scissor Game</p>
+
+                <p id="project-des">Built a simple browser game using HTML, CSS, and JavaScript with real-time score tracking and instant win/lose feedback.</p>
+
+                <img src="rockgame.png" alt="" id="project-img">
+                
+                <div id="techstack"> 
+                    
+                      <img src="icons/html.png" alt="" id="image-box-icon">
+                       <img src="icons/css.png" alt="" id="image-box-icon">
+                        <img src="icons/js.png" alt="" id="image-box-icon">
+                         
+                </div>
+                <a href="https://github.com/bikrambasantra/ROCK_PAPER_SCISSOR-GAME.git" id="check" target="_blank">
+                    Click here to check
+                    <img src="icons/search.png" alt="" id="search-icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="platforms" id="platform">
+        <div id="heading-for-platform">
+              <p class="skills-heading">Platfoms</p>
+                <p id="ph" class="des2" style="color: gray;">Here are the platforms where I share my work and connect with amazing people. Let’s stay connected!</p>
+        </div>
+        <div class="platfroms-div">
+            <div>
+                <a id="youtube" href="https://www.youtube.com/@bikrambasantra">
+                <img src="icons/youtube.png" alt="" style="width: 40px; margin-bottom: 4px;">
+                <p id="t">YouTube</p>
+                <p id="t">6k+ views</p>
+                </a>
+            </div>
+               <div>
+                <a id="youtube" href="https://www.instagram.com/ibikrambasantra/">
+                <img src="icons/instagram.png" alt="" style="width: 40px;margin-bottom: 4px;">
+                
+                <p id="t">Instagram</p>
+                <p id="t">@ibikrambasantra</p>
+                </a>
+            </div>
+               
+            <div>
+                <a id="youtube" href="https://github.com/bikrambasantra">
+                <img src="icons/github.png" alt="" style="width: 40px;margin-bottom: 4px;">
+                
+                <p id="t">github</p>
+                <p id="t"></p>
+                </a>
+            </div>
+            <div>
+                <a id="youtube" href="https://www.linkedin.com/in/bikram-deva-basantra-987957270/">
+                <img src="icons/linkedin.png" alt="" style="width: 40px;margin-bottom: 4px;">
+                
+                <p id="t">Likedin</p>
+                <p id="t"></p>
+                </a>
+            </div>
+        
+            
+        </div>
+
+         <div id="heading-for-platform" style="margin-top: 20px;">
+              <p class="skills-heading">Coding Platfoms</p>
+                <p id="ph" class="des2" style="color: gray;">These are the platforms where I practice coding, explore DSA, and showcase my problem-solving journey.</p>
+        </div>
+
+
+
+        <div class="platfroms-div" style="background-color: rgb(239, 225, 200);">
+            <div>
+                <a id="youtube" href="https://leetcode.com/u/bikrambasantra2/">
+                <img src="icons/leetcode.svg" alt="" style="width: 40px; margin-bottom: 4px;">
+                <p id="t">LeetCode</p>
+                <p id="t">166+</p>
+                </a>
+            </div>
+               <div>
+                <a id="youtube" href="https://www.geeksforgeeks.org/user/bikram13/">
+                <img src="icons/geeksforgeeks.svg" alt="" style="width: 40px;">
+                
+                <p id="t">geeksforgeeks</p>
+                <p id="t">50+</p>
+                </a>
+            </div>
+               
+            <div>
+                <a id="youtube" href="https://takeuforward.org/profile/Bikram13">
+                <img src="icons/code-forces.svg" alt="" style="width: 40px;">
+                
+                <p id="t">Take You Forward</p>
+                <p id="t">120+</p>
+                </a>
+            </div>
+            <div>
+                <a id="youtube" href="https://www.youtube.com/@bikrambasantra">
+                <img src="icons/codingninjas.svg" alt="" style="width: 40px;">
+                
+                <p id="t">CodingNinja</p>
+                <p id="t">50+</p>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="lower-header" id="lower-header">
+        <div id="contact">
+            <p id="contact-text">Contact Information</p>
+            <div id="con-info" style="display: flex; flex-direction: row; column-gap: 10px; align-items: center; margin-top: 40px;">
+                <img src="icons/call-white.png" alt="" id="nav-icon"  class="shareicon">
+                <p>+91 720-595-0149</p>
+            </div>
+            <div id="con-info" style="display: flex; flex-direction: row; column-gap: 10px; align-items: center; margin-top: 12px;">
+                <img src="icons/email.png" alt="" id="nav-icon"  class="shareicon">
+                <a href="">bikrmbasantra2@gmail.com</a>
+            </div>
+        </div>
+
+        <div id="messageme">
+            
+      
+        <form id="contactForm">
+    <div class="name-fields">
+        <div>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="First Name" required>
+      </div>
+      <div>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+      </div>
+    </div>
+    <div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+          <label for="message">Your Message</label>
+        <div>
+  
+    <textarea id="message" name="message" placeholder="I would like to talk about..." required></textarea>
+    <button type="submit" id="send-message">Send Message</button>
+            </div>
+    
+  </form>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
